@@ -1,0 +1,129 @@
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.custom-account-tools-background {
+    background-color: black;
+}
+
+.logo-cart nav {   
+    display: block;
+    margin-left: 100px;
+}
+
+.logo-cart nav ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.logo-cart nav li span {
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background-image: url('../img/point-down.svg');
+    background-size: cover;   
+    margin: 2px 4px;
+    filter: brightness(0);
+}
+
+.logo-cart nav a {
+    color: black;
+}
+
+.logo-cart nav a:hover {
+    color: #8a8a8a;
+}
+
+.menu-cart .menu {
+    display: none;
+}
+
+.menu-cart {
+    margin: 0 auto;
+}
+
+.feed-background {
+    background-color: #ededed;
+}
+
+.recommendations {
+    margin: 33px auto;  
+}
+
+.clearance-list {
+    margin: 25px 0;
+    justify-content: space-between;
+}
+
+.brands-list {
+    justify-content: space-between;
+
+}
+
+.brands-list li:nth-child(n+7) {
+    display: block;
+}
+
+.brands-list li:nth-child(1) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') -13px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(2) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') -115px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(3) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') -223px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(4) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') -330px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(5) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') -444px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(6) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') 441px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(7) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') 321px 0;
+    background-size: cover;
+}
+
+.brands-list li:nth-child(8) a span {
+    background: url('../img/favourite-brands-sprite-desktop.png') 148px 0;
+    background-size: cover;
+}
+
+.about-us {
+    margin: 26px auto;
+}
+
+footer section:first-child {
+    background-color: #ededed;
+}
+
+footer section:last-child {
+    background-color: black;
+}
+
+.footer-nav {
+    justify-content: space-between;
+}
+
+.social-links-footer {
+    margin-right: 39px;
+}
+
+
